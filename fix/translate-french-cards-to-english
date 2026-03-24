@@ -1,0 +1,46 @@
+Line 45: "UNIVAC" → description: "First commercial computer produced in the United States, introduced in 1951."
+Line 46: "Operating Systems" → "Software that manages hardware resources and provides services to programs."
+Line 47: "Programming Language Compilers" → "Tools that translate source code into executable machine code."
+Line 48: "Unix" → "Multitasking, multi-user operating system developed in the 1970s, influencing many later systems."
+Line 49: "The Copyleft Commons" → "Concept ensuring derivative works remain free, using licenses like the GPL."
+Line 50: "SHARE Users Group" → "User group founded in 1955 to share software and technical information among IBM users."
+Line 51: "Usenet and UUCPNet" → "Early 1980s systems enabling programmers to share software and communicate."
+Line 52: "GNU Operating System" → "Free operating system initiated in 1983 by Richard Stallman."
+Line 53: "Debian GNU" → "Linux distribution created in 1993, committed to free software principles."
+Line 54: "MySQL Database Engine" → "Popular open-source relational database management system for web apps."
+Line 55: "Compilers" → "Programs that translate source code into machine code, essential for software development."
+Line 56: "Interpreters" → "Programs that execute source code line by line without prior compilation."
+Line 57: "Python" → "Interpreted, versatile, and beginner-friendly programming language created in 1991."
+Line 58: "Ruby" → "Dynamic, object-oriented programming language known for simplicity and productivity."
+Line 59: "Scala" → "Programming language combining object-oriented and functional programming paradigms."
+Line 60: "Java" → "Versatile, object-oriented programming language introduced in 1995, widely used in enterprise."
+Line 61: "ActionScript" → "Programming language used for interactive web applications and animations."
+Line 62: "C#" → "Microsoft programming language for building applications on the .NET platform."
+Line 63: "Java Platform" → "Computing platform for developing and running Java applications."
+Line 64: "Java Runtime Environment" → "Execution environment for running Java applications across operating systems."
+Line 65: "javac" → "Java compiler that translates source code into bytecode executable by the JVM."
+Line 66: "Blackdown Java" → "Project to port the Java implementation to Linux systems."
+Line 67: "GNU Compiler for Java" → "Free Java compiler, part of the GNU toolchain."
+Line 68: "Fedora" → "Community-driven Linux distribution developed by the Fedora Project, sponsored by Red Hat."
+Line 69: "Ubuntu" → "Debian-based Linux distribution, popular for its user-friendliness and community support."
+Line 70: "OpenJDK" → "Free and open-source implementation of the Java Standard Edition platform."
+Line 71: "GNU" → "Project initiated by Richard Stallman to create an entirely free operating system."
+Line 72: "Distributed Revision Control System" → "Systems for managing project versions in a distributed way."
+Line 73: "Git" → "Distributed version control system designed to handle projects of all sizes with speed."
+Line 74: "Chromebooks" → "Laptops running Chrome OS, a Linux-based system centered on the web browser."
+PR Description:
+## Description
+Translated all 30 French card descriptions (lines 45-74) to English for language
+consistency across the entire `cards.csv` file.
+
+The original cards (lines 2-27) were in English, and newer contributions mixed French
+and English, which creates a confusing gameplay experience.
+
+## Type of change
+- [x] Bug fix
+- [x] Documentation update
+
+## Related issues
+Closes #<issue_9>
+
+Signed-off-by: Nicolas
