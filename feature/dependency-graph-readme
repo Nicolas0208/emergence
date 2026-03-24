@@ -1,0 +1,53 @@
+## 🌳 Card Dependency Tree
+
+The following diagram shows how discoveries depend on each other across the six periods:
+
+```mermaid
+graph TD
+    A["SHARE & DECUS<br/>Period 1"] --> B["TeX & SPICE<br/>Period 3"]
+    C["ARPANET<br/>Period 1"] --> D["Software Licensing<br/>Period 2"]
+    C --> E["Apache Web Server<br/>Period 4"]
+    D --> F["IBM Closed Source Policy<br/>Period 2"]
+    F --> G["Shrink-Wrap Licenses<br/>Period 2"]
+    H["UNIX Commercialization<br/>Period 2"] --> I["GNU Project<br/>Period 3"]
+    I --> J["Copyleft<br/>Period 3"]
+    J --> K["Free Software Foundation<br/>Period 3"]
+    K --> L["Linux Kernel<br/>Period 4"]
+    K --> M["Open Source Initiative<br/>Period 4"]
+    K --> N["AI & TensorFlow<br/>Period 6"]
+    L --> O["Debian & Package Management<br/>Period 4"]
+    L --> P["Git & GitHub<br/>Period 5"]
+    L --> Q["Android<br/>Period 5"]
+    L --> R["Containerization Docker<br/>Period 5"]
+    L --> S["Cloud Computing<br/>Period 6"]
+    L --> T["Linux Domination<br/>Period 6"]
+    M --> U["Mozilla & Netscape<br/>Period 4"]
+    M --> V["Microsoft Open Source Shift<br/>Period 5"]
+    S --> V
+    M --> W["SCO v. IBM & Oracle v. Google<br/>Period 5"]
+    M --> X["Blockchain & Open Finance<br/>Period 6"]
+    P --> Y["Microsoft Acquires GitHub<br/>Period 6"]
+```
+
+> This diagram was generated from `cards.csv`. Cards without prerequisites (starting cards)
+> are entry points at the top of the graph.
+PR Description:
+## Description
+Added a Mermaid dependency graph to `README.md` that visualizes how discovery cards
+relate to each other across the six periods. This makes the game structure immediately
+understandable for new contributors and players.
+
+## Type of change
+- [x] Documentation update
+
+## How was this tested?
+Rendered correctly on GitHub’s Mermaid preview.
+
+## Related issues
+Closes #<issue_number_of_feature_3>
+
+## Checklist
+- [x] I have tested my changes locally
+- [x] I have added comments/documentation where needed
+- [x] I have linked related issues
+- [x] I am ready for review
