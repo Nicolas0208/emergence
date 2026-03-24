@@ -1,0 +1,36 @@
+Changes in cards.csv (replace ` - ` with `; ` in dependson column):
+Line 32: "Software - IBM Closed Source Policy"  →  "Software; IBM Closed Source Policy"
+Line 33: "Proprietary software - UNIX Commercialization"  →  "Proprietary software; UNIX Commercialization"
+Line 37: "Copyrights and Patents - Proprietary Software"  →  "Copyrights and patents; Proprietary software"
+Line 39: "Software - Free Sharing of Technological Information"  →  "Software; Free sharing of technological information"
+Line 40: "Open Source - Software"  →  "Open source; Software"
+Line 42: "UNIX Commercialization - GNU Project - Free Software Foundation"  →  "UNIX Commercialization; GNU Project; Free Software Foundation"
+Line 44: "Software - Free Sharing of Technological Information "  →  "Software; Free sharing of technological information"
+
+(Also fixes the trailing space on line 44 and the case mismatches in dependency names)
+PR Description:
+## Description
+Standardized all dependency separators in `cards.csv` to use semicolons (`;`),
+which is the convention used by the original cards (lines 1-27).
+
+Also fixed case mismatches in dependency references so they exactly match the
+corresponding `discovery` names (e.g., `Copyrights and Patents` → `Copyrights and patents`).
+
+Removed a trailing whitespace in line 44’s dependson field.
+
+## Type of change
+- [x] Bug fix
+
+## How was this tested?
+Verified all dependson values now reference existing discovery names (case-sensitive match).
+
+## Related issues
+Closes #<issue_6> and Closes #<issue_7>
+
+## Checklist
+- [x] I have tested my changes locally
+- [x] I have added comments/documentation where needed
+- [x] I have linked related issues
+- [x] I am ready for review
+
+Signed-off-by: Nicolas
