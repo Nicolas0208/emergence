@@ -1,0 +1,14 @@
+# Enforce consistent line endings for all text files
+* text=auto
+
+# CSV files
+*.csv text eol=lf
+
+# LaTeX files
+*.tex text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# Python files
+*.py text eol=lf
