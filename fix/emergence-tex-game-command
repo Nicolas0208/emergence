@@ -1,0 +1,15 @@
+% EXISTING line 10:
+\newcommand{\deck}{floss}
+
+% ADD this line right after:
+\newcommand{\game}{emergence}
+PR Description:
+## Description
+Added the missing `\game` command definition to `emergence.tex`.
+The file used `\game` in `\title{\game}` but never defined it,
+causing a compilation error.
+
+Matches the convention used in `cards.tex` where `\game` is defined as `emergence`.
+
+## Type of change
+- [x] Bug fix
