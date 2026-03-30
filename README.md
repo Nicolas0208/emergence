@@ -1,6 +1,27 @@
 # emergence
 Clone of the game "[Discovery](https://www.discovery-game.com/)" focused on the evolution of peer production.
 
+## 🚀 Quick Start
+
+**Play online now:**
+1. Go to [PlayingCards.io](https://playingcards.io/)
+2. Create a new room and select “Custom Deck”
+3. Import `cards.csv` from this repository
+4. Invite 2-4 players and start playing!
+
+**Print the deck:**
+1. Open `cards.tex` in [Overleaf](https://www.overleaf.com)
+2. Compile the PDF
+3. Print double-sided on card stock
+
+## 📚 Table of Contents
+- [Quick Start](#-quick-start)
+- [Game Rules](#-game-rules--discovery)
+- [How to Play](#-how-to-play-discovery-explore--basic-rules)
+- [Card Dependency Tree](#-card-dependency-tree)
+- [Contributing](#contributing)
+
+
 The card deck for the game is specified in the file [cards.csv](https://github.com/mdbesten/emergence/blob/main/cards.csv). To play the game online you can load this deck on a site like [PlayingCards.io](https://playingcards.io/). 
 For offline use, create a pdf of the deck with LaTeX with help of the CTAN packages [flashcards](https://ctan.org/pkg/flashcards) and [datatool](https://ctan.org/pkg/datatool) on a site such as [Overleaf](https://www.overleaf.com). See [cards.tex](https://github.com/mdbesten/emergence/blob/main/cards.tex).
 
