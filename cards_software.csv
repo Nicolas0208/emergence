@@ -14,3 +14,8 @@ Ubuntu,2004,2000-2009,Canonical Ltd.,"Popular Linux distribution based on Debian
 Android,2008,2000-2009,Google and Linux Kernel,"Mobile operating system based on Linux and developed by Google", Software
 Git,2005,2000-2009,Linus Torvalds,"Distributed version control system (DVCS)", Software
 Visual Studio Code,2015,2010-2019,Microsoft,"Free source-code editor with support for debugging, syntax highlighting, etc.", Software
+Docker,2013,2010-2019,Linux,"Containerization platform that revolutionized software deployment", Software
+Kubernetes,2014,2010-2019,Docker,"Container orchestration system originally developed by Google", Software
+Node.js,2009,2000-2009,None,"JavaScript runtime enabling server-side programming", Software
+React,2013,2010-2019,Node.js,"Open-source UI library developed and maintained by Meta", Software
+TensorFlow,2015,2010-2019,Python,"Open-source machine learning framework by Google", Software
